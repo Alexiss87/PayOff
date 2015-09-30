@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="holo_blue_light">#33b5e5</color>
+    <color name="holo_blue_dark">#0099cc</color>
+    <color name="holo_blue_bright">#00ddff</color>
+    <color name="holo_green_dark">#70822E</color>
+    <color name="holo_green_light">#3DF553</color>
+    <color name="holo_red_light">#FA9B8C</color>
+
+
+    <color name="list_item_title">#fff</color>
+    <!--<color name="list_background">#30303033</color>-->
+
+   <!-- <color name="list_background2">#8800001A</color>-->
+    <color name="list_background">#AED581</color>
+    <color name="list_background2">#AED581</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727D9</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+
+    <color name="primaryColor">#8BC34A</color>
+    <color name="primaryColorDark">#689F38</color>
+    <color name="accentColor">#FFEB3B</color>
+    <color name="endColor">#7CB342</color>
+    <color name="mainBackGround">#DCEDC8</color>
+
+</resources>

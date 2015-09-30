@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listArray">
+        <item>@string/simple_time_picker</item>
+        <item>@string/Advance_time_picker</item>
+    </string-array>
+    <string-array name="listValues">
+        <item>@string/list_value1</item>
+        <item>@string/list_value2</item>
+    </string-array>
+</resources>

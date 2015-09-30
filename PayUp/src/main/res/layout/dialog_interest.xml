@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="15dp"
+    android:paddingTop="15dp">
+
+
+        <TextView
+            android:id="@+id/dialog_interest_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_interest_per_week"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="25dp"
+            android:layout_alignParentLeft="true"/>
+
+        <EditText
+            android:id="@+id/dialog_interest_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:layout_toRightOf="@+id/dialog_interest_tv"
+            android:layout_alignBottom="@+id/dialog_interest_tv"
+            android:layout_alignLeft="@+id/dialog_numb_of_weeks_Et"/>
+
+        <TextView
+            android:id="@+id/dialog_duration_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_no_weeks_to_pay"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/dialog_interest_tv"/>
+
+        <EditText
+            android:id="@+id/dialog_numb_of_weeks_Et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:layout_toRightOf="@+id/dialog_duration_tv"
+            android:layout_alignBottom="@+id/dialog_duration_tv"/>
+
+</RelativeLayout>

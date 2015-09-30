@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item android:id="@+id/menu_item_add_Lender"
+        android:title="@string/menu_item_add_lender"
+        android:icon="@drawable/ic_add_lender"
+        app:showAsAction="always"
+        android:orderInCategory="0"/>
+
+    <!-- Sort menu here (order = 3). See MainActivity.java -->
+
+    <item
+        android:id="@+id/action_dropbox"
+        android:title="@string/action_dropbox_refresh"
+        android:orderInCategory="98"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/About"
+        android:orderInCategory="99"
+        app:showAsAction="never"/>
+
+</menu>

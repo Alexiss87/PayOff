@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:Preference="http://schemas.android.com/apk/res-auto">
+
+
+    <PreferenceCategory
+        android:key="key_Notification Settings"
+        android:title="@string/notification_title">
+
+        <com.simpson.o.alexis.payup.TimePreference
+            android:key="KEY_NOTIFICATION_TIME"
+            android:title="@string/default_notification_time"
+            android:defaultValue="08:00:AM"/>
+
+        <SwitchPreference
+            android:title="@string/alert_sound"
+            android:key="KEY_ALERT_SOUND"
+            android:defaultValue="false"/>
+
+        <RingtonePreference
+            android:title="@string/select_ringtone"
+            android:key="KEY_RINGTONE_PREFS"
+            android:dependency="KEY_ALERT_SOUND"/>
+
+        <SwitchPreference
+            android:title="@string/vibrate"
+            android:key="KEY_VIBRATE_ON_ALERT"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="KEY_default_time_picker"
+        android:title ="@string/time_picker_select">
+
+        <ListPreference
+            android:title="@string/picker_type"
+            android:key="KEY_PICKER_TYPE"
+            android:defaultValue="2"
+            android:entries="@array/listArray"
+            android:entryValues="@array/listValues"/>
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

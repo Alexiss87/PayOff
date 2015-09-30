@@ -1,0 +1,69 @@
+<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    card_view:cardCornerRadius="4dp"
+    android:layout_margin="5dp"
+    app:elevation="2dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <QuickContactBadge
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/listContactBadge"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_contact_picture"
+            android:paddingLeft="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_item_nameTV"
+            android:text="@string/name"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_toRightOf="@+id/listContactBadge"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="1dp"/>
+
+
+        <TextView
+            android:id="@+id/list_item_balanceTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/listContactBadge"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/list_item_nameTV"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/balance"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_item_amountTV"
+            android:textColor="@color/holo_green_dark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_toRightOf="@+id/list_item_balanceTV"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/list_item_nameTV"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/status_imageView"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:focusable="false"
+            android:visibility="visible"/>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

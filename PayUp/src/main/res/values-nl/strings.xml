@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pay Off -Dept Manager</string>
+    <string name="tab_borrowers">Leningnemer</string>
+    <string name="tab_lenders">Kredietgevers</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="borrowers_pager_title">Kredietnemers</string>
+    <string name="menu_item_add_borrower">Nieuwe kredietnemer</string>
+    <string name="menu_item_delete_borrower">Verwijderen</string>
+    <string name="lenders_pager_title">Kredietgevers</string>
+    <string name="menu_item_add_lender">Nieuwe geldschieter</string>
+    <string name="menu_item_save">Opslaan</string>
+    <string name="name">Naam</string>
+    <string name="balance">Saldo:</string>
+    <string name="amount">Bedrag</string>
+
+    <!-- Calendar Strings -->
+    <string name="calendar_title_dateBorrowed">Datum Opgenomen</string>
+    <string name="calendar_title_dateDue">Vervaldatum</string>
+    <string name="calendar_title_dateLoaned">Datum Leende</string>
+
+    <!-- Navigation drawer strings -->
+    <string name="title_section1">Kredietnemers</string>
+    <string name="title_section2">Kredietgevers</string>
+    <string name="title_section3">Instellingen</string>
+    <string name="navigation_drawer_open">Navigatie Open lade</string>
+    <string name="navigation_drawer_close">Navigatievenster sluiten lade</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Kredietnemers</item>
+        <item>Kredietgevers</item>
+        <item>Instellingen</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_borrower</item>
+        <item>@drawable/ic_lender</item>
+        <item>@android:drawable/ic_menu_preferences</item>
+    </array>
+
+    <!-- Done bar strings -->
+    <string name="done">Gedaan</string>
+    <string name="cancel">Annuleren</string>
+
+    <string name="detail_name_header">Naam</string>
+    <string name="detail_lender_name_hint">Voer naam van geldgever</string>
+    <string name="detail_phone_header">TELEFOON</string>
+    <string name="detail_phone_hint">Voer telefoonnummer in</string>
+    <string name="detail_amountLoaned_header">GELEENDE BEDRAG</string>
+    <string name="detail_interest_header">RENTE</string>
+    <string name="detail_amount_hint">$</string>
+    <string name="detail_interest_hint">%</string>
+    <string name="detail_date_loaned_header">DATUM LEENDE</string>
+    <string name="detail_date_loaned_hint">DD/MM/JJJJ</string>
+    <string name="detail_date_due_header">VERVALDATUM</string>
+    <string name="detail_notification_time_header">Tijdstip van Melding</string>
+    <string name="detail_date_due_hint">DD/MM/JJJJ</string>
+    <string name="detail_notification_checkbox">Waarschuw Mij</string>
+    <string name="detail_balance_header">SALDO</string>
+    <string name="detail_select_contact_button">Bestaande contactp. selecteren</string>
+    <string name="detail_borrower_name_hint">Voer naam van kredietnemer</string>
+    <string name="detail_amountBorrowed_header">GELEENDE BEDRAG</string>
+    <string name="detail_date_borrowed">DATUM OPGENOMEN</string>
+    <string name="title_activity_pay_up_preferences">PayUp Voorkeuren</string>
+    <string name="search_hint">Zoeken op naam</string>
+    <string name="title_activity_search_results">SearchResultsActivity</string>
+    <string name="detail_amount_paid_header">BEDRAG</string>
+
+
+    <!--notification strings-->
+    <string name="borrower_due">Kredietnemer verschuldigd te betalen</string>
+    <string name="borrower_context_msg">Betaalt vandaag nog</string>
+    <string name="lender_due">Geldgever moet worden besteed</string>
+    <string name="lender_context_msg">Moeten worden betaald</string>
+
+    <string name="action_bar_list_subtitle">Lijst</string>
+    <string name="action_bar_list_subtitle_search">Lijst - zoeken naar: </string>
+    <string name="borrower_detail_fragment_title">Leningnemer</string>
+    <string name="lender_detail_fragment_title">Financier</string>
+    <string name="today">Vandaag</string>
+    <string name="borrower_saved">Leningnemer Opgeslagen</string>
+    <string name="borrower_updated">Leningnemer Bijgewerkt</string>
+    <string name="lender_saved">Kredietgever Opgeslagen</string>
+    <string name="lender_updated">Kredietgever Bijgewerkt</string>
+    <string name="time_reset">Reset Tijd</string>
+    <string name="upcoming_time">Stel vervaldatum voor komende tijd</string>
+    <string name="interest_dialog_title">Enkelvoudige rente voor leningen</string>
+    <string name="dialog_interest_per_week">Rente per week</string>
+    <string name="dialog_no_weeks_to_pay">Aantal Weken te betalen</string>
+    <string name="Borrowers_empty_listView_text">Er zijn geen leningen geld af te nemen :(</string>
+    <string name="lenders_empty_listView_text">Er zijn geen geldschieters geld geven aan :)</string>
+
+    <!--settings strings -->
+    <string name="notification_title">Meldinginstellingen</string>
+    <string name="default_notification_time">Standaard tijd aanmelding</string>
+    <string name="alert_sound">Waarschuwingsgeluid</string>
+    <string name="select_ringtone">Selecteer Waarschuwing Geluid</string>
+    <string name="vibrate">Trillen bij alarm</string>
+    <string name="time_picker_select">Time Picker weergeven</string>
+    <string name="picker_type">Picker Type</string>
+    <string name="simple_time_picker">Eenvoudige time picker</string>
+    <string name="Advance_time_picker">Advance time picker</string>
+    <string name="list_value1">"1"</string>
+    <string name="list_value2">"2"</string>
+    <string name="About">Over</string>
+    <string name="Rate_app">Prijs app voor ondersteuning</string>
+    <string name="FeedBack">FeedBack</string>
+    <string name="Feedback_summary">Stuur suggesties over hoe deze app kan worden verbeterd</string>
+
+    <string name="about_version">Versie: %s</string>
+    <string name="about_author">Gemaakt door Alexis Simpson</string>
+    <string name="about_google_play">Tarief in Google Play</string>
+    <string name="about_contact">Contact auteur</string>
+    <string name="about_contact_do_not_remove">\n\n--------------------\nVergeet niet verwijder de volgende technische informatie!\n--------------------\n</string>
+
+
+    <string name="dropbox_link_dialog_title">Dropbox account</string>
+    <string name="dropbox_link_dialog_message">U kunt zich aanmelden bij bestaande Dropbox account of maak een nieuwe. Na een succesvolle account koppelen van alle gegevens worden verplaatst naar Dropbox cloud storage.</string>
+    <string name="dropbox_link_dialog_yes">Doorgaan</string>
+    <string name="dropbox_link_dialog_no">Niet nu</string>
+
+    <string name="action_dropbox_link">Link Dropbox account</string>
+    <string name="action_dropbox_refresh">Vernieuwen</string>
+    <string name="action_dropbox_refresh_toast">Sync is gestart ...</string>
+    <string name="action_dropbox_link_succeded_toast">Dropbox account is gekoppeld</string>
+    <string name="action_dropbox_link_failed_toast">Dropbox account mislukt!</string>
+    <string name="action_dropbox_already_linked_toast">Dropbox account gekoppeld</string>
+
+    <string name="common_ok">OK</string>
+    <string name="common_close">Sluiten</string>
+
+
+    <string name="translation">english (default)</string>
+    <string name="search_title">Zoeken</string>
+    <string name="action_sort">Sorteren</string>
+    <string name="sort_by_name">Op naam</string>
+    <string name="sort_by_due_date">Op vervaldatum</string>
+    <string name="sort_by_date_loaned_or_borrowed">Door datum leende/geleend</string>
+
+    <string name="no_connection_toast">Geen netwerkverbinding!</string>
+    <string name="owes_you">Dankt u:</string>
+    <string name="You_owe">U krijgt:</string>
+    <string name="mark_as_paid">Mark lening betaald</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nr</string>
+    <string name="action_menu_details">Details</string>
+    <string name="action_menu_delete">Verwijderen</string>
+    <string name="action_menu_paid">Betaald</string>
+
+</resources>

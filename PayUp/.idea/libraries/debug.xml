@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="debug">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/intermediates/pre-dexed/debug/classes-656a8c852582f99baa7b460f0e5160ca96b696d7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/pre-dexed/debug/support-v4-19.1.0-ec53463f0c6266568ff3d216ada6a9fc03ef4c2c.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/pre-dexed/debug/classes-320190efc6ed7d175d217cfc90b64a0a98db6bd2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/pre-dexed/debug/date4j-8c0c9003ad69597b14dcd9218edfdf88e745851c.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/pre-dexed/debug/StartAppInApp-2.4.1-bec698bd31ecc4b7b234dfb2c5113c5e08a99da8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/pre-dexed/debug/classes-9d759fd1dc4a15cfcb90eaffd63243271ba63aa5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/pre-dexed/debug/classes-148aee6876d93e5f047d00dad462617c193b4218.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="tab_borrowers">O Mutuário</string>
+    <string name="tab_lenders">Os mutuantes</string>
+    <string name="action_settings">Settings</string>
+    <string name="borrowers_pager_title">Os mutuários</string>
+    <string name="menu_item_add_borrower">Novo Mutuário</string>
+    <string name="menu_item_delete_borrower">Excluir</string>
+    <string name="lenders_pager_title">Os mutuantes</string>
+    <string name="menu_item_add_lender">Nova Lender</string>
+    <string name="menu_item_save">Salvar</string>
+    <string name="name">Nome</string>
+    <string name="balance">Equilíbrio:</string>
+    <string name="amount">Quantidade</string>
+
+    <!-- Calendar Strings -->
+    <string name="calendar_title_dateBorrowed">Data Emprestados</string>
+    <string name="calendar_title_dateDue">Data devido</string>
+    <string name="calendar_title_dateLoaned">Data emprestada</string>
+
+    <!-- Navigation drawer strings -->
+    <string name="title_section1">Os mutuários</string>
+    <string name="title_section2">Os mutuantes</string>
+    <string name="title_section3">Settings</string>
+    <string name="navigation_drawer_open">Abrir gaveta navegação</string>
+    <string name="navigation_drawer_close">Gaveta Fechar Navegação</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Borrowers</item>
+        <item>Lenders</item>
+        <item>Settings</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_borrower</item>
+        <item>@drawable/ic_lender</item>
+        <item>@android:drawable/ic_menu_preferences</item>
+    </array>
+
+    <!-- Done bar strings -->
+    <string name="done">Feito</string>
+    <string name="cancel">Cancelar</string>
+
+    <string name="detail_name_header">Nome</string>
+    <string name="detail_lender_name_hint">Introduza o nome do credor</string>
+    <string name="detail_phone_header">TELEFONE</string>
+    <string name="detail_phone_hint">Introduza o número de telefone</string>
+    <string name="detail_amountLoaned_header">MONTANTE EMPRESTADO</string>
+    <string name="detail_interest_header">JUROS</string>
+    <string name="detail_amount_hint">$</string>
+    <string name="detail_interest_hint">%</string>
+    <string name="detail_date_loaned_header">DATA EMPRESTADA</string>
+    <string name="detail_date_loaned_hint">DD/MM/YYYY</string>
+    <string name="detail_date_due_header">DATA DEVIDO</string>
+    <string name="detail_notification_time_header">Tempo de Notificação</string>
+    <string name="detail_date_due_hint">DD/MM/YYYY</string>
+    <string name="detail_notification_checkbox">Notifique-me</string>
+    <string name="detail_balance_header">EQUILÍBRIO</string>
+    <string name="detail_select_contact_button">Selecione Contato</string>
+    <string name="detail_borrower_name_hint">Digite o nome do Mutuário</string>
+    <string name="detail_amountBorrowed_header">QUANTIA EMPRESTADA</string>
+    <string name="detail_date_borrowed">DATA EMPRESTADOS</string>
+    <string name="title_activity_pay_up_preferences">PayUpPreferences</string>
+    <string name="search_hint">Pesquisar por nome</string>
+    <string name="title_activity_search_results">SearchResultsActivity</string>
+    <string name="detail_amount_paid_header">MONTANTE PAGO</string>
+
+    <!--notification strings-->
+    <string name="borrower_due">O mutuário deve pagar</string>
+    <string name="borrower_context_msg">Lhe deve dinheiro</string>
+    <string name="lender_due">O mutuante deve ser pago</string>
+    <string name="lender_context_msg">Deve ser paga hoje</string>
+
+    <string name="action_bar_list_subtitle">Total: </string>
+    <string name="action_bar_list_subtitle_search">Lista - Pesquisar por:</string>
+    <string name="borrower_detail_fragment_title">O Mutuário</string>
+    <string name="lender_detail_fragment_title">O Mutuante</string>
+    <string name="today">Hoje</string>
+    <string name="borrower_saved">O Mutuário salva</string>
+    <string name="borrower_updated">O Mutuário atualizado</string>
+    <string name="lender_saved">O Mutuante salva</string>
+    <string name="lender_updated">O Mutuante atualizado</string>
+    <string name="time_reset">Zero Hora</string>
+    <string name="upcoming_time">Por favor, definir a data de conclusão da próxima vez</string>
+    <string name="interest_dialog_title">Juros simples para empréstimo</string>
+    <string name="dialog_interest_per_week">Interesse por semana</string>
+    <string name="dialog_no_weeks_to_pay">Número de semanas para pagar</string>
+    <string name="Borrowers_empty_listView_text">Não há mutuários para tirar dinheiro dos :(</string>
+    <string name="lenders_empty_listView_text">Não há emprestadores para dar dinheiro a :)</string>
+
+
+    <!--settings strings -->
+    <string name="notification_title">As configurações de notificação</string>
+    <string name="default_notification_time">Tempo de notificação Padrão</string>
+    <string name="alert_sound">Alerta de som</string>
+    <string name="select_ringtone">Selecione Som de alerta</string>
+    <string name="vibrate">Vibrar em Alerta</string>
+    <string name="time_picker_select">Time Picker View</string>
+    <string name="picker_type">Tipo Apanhador</string>
+    <string name="simple_time_picker">Simples time picker</string>
+    <string name="Advance_time_picker">Antecedência time picker</string>
+    <string name="list_value1">"1"</string>
+    <string name="list_value2">"2"</string>
+    <string name="About">Sobre</string>
+    <string name="Rate_app">Taxa app para apoio</string>
+    <string name="FeedBack">Feedback</string>
+    <string name="Feedback_summary">Enviar sugestões sobre a forma como este aplicativo pode ser melhorada</string>
+
+    <string name="about_version">Versão: %s</string>
+    <string name="about_author">Criado por Alexis Simpson</string>
+    <string name="about_google_play">Taxa no Google Play</string>
+    <string name="about_contact">Contato autor</string>
+    <string name="about_contact_do_not_remove">\n\n--------------------\nPor favor, não remova as seguintes informações técnicas!\n--------------------\n</string>
+
+
+    <string name="dropbox_link_dialog_title">Conta Caixa</string>
+    <string name="dropbox_link_dialog_message">Você pode se inscrever no Dropbox existente conta ou crie um novo. Após a conclusão bem-sucedida conta que une todos os seus dados serão movidos a Dropbox armazenamento de dados em nuvem.</string>
+    <string name="dropbox_link_dialog_yes">Continuar</string>
+    <string name="dropbox_link_dialog_no">Não agora</string>
+
+    <string name="action_dropbox_link">Link Dropbox conta</string>
+    <string name="action_dropbox_refresh">Atualizar</string>
+    <string name="action_dropbox_refresh_toast">Sync foi iniciado ...</string>
+    <string name="action_dropbox_link_succeded_toast">Dropbox conta tem sido associada</string>
+    <string name="action_dropbox_link_failed_toast">Dropbox link para a conta não!</string>
+    <string name="action_dropbox_already_linked_toast">Dropbox conta ligada</string>
+
+    <string name="common_ok">OK</string>
+    <string name="common_close">Fechar</string>
+
+    <string name="translation">english (default)</string>
+    <string name="search_title">Pesquisar</string>
+    <string name="action_sort">Tipo</string>
+    <string name="sort_by_name">Por nome</string>
+    <string name="sort_by_due_date">Por data de vencimento</string>
+    <string name="sort_by_date_loaned_or_borrowed">Por data emprestada/emprestados</string>
+
+    <string name="no_connection_toast">Nenhuma conexão de rede!</string>
+    <string name="owes_you">Deve você.</string>
+    <string name="You_owe">É teu dever.</string>
+
+    <string name="mark_as_paid">Mark empréstimo como pago</string>
+    <string name="yes">Sim</string>
+    <string name="no">não</string>
+    <string name="action_menu_details">Mais detalhes</string>
+    <string name="action_menu_delete">Excluir</string>
+    <string name="action_menu_paid">Pago</string>
+    <string name="app_name">Pay Off -Dept Manager</string>
+</resources>

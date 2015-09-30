@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pay Off -Dept Manager</string>
+    <string name="tab_borrowers">المقترض</string>
+    <string name="tab_lenders">المقرضين</string>
+    <string name="action_settings">إعدادات</string>
+    <string name="borrowers_pager_title">المقترضين</string>
+    <string name="menu_item_add_borrower">المقترضة الجديدة</string>
+    <string name="menu_item_delete_borrower">حذف</string>
+    <string name="lenders_pager_title">المقرضين</string>
+    <string name="menu_item_add_lender">المقرض جديدة</string>
+    <string name="menu_item_save">إنقاذ</string>
+    <string name="name">اسم</string>
+    <string name="balance">التوازن:</string>
+    <string name="amount">المبلغ</string>
+
+    <!-- Calendar Strings -->
+    <string name="calendar_title_dateBorrowed">استعارة التاريخ</string>
+    <string name="calendar_title_dateDue">تاريخ</string>
+    <string name="calendar_title_dateLoaned">تاريخ المعارين</string>
+
+    <!-- Navigation drawer strings -->
+    <string name="title_section1">المقترضين</string>
+    <string name="title_section2">المقرضين</string>
+    <string name="title_section3">إعدادات</string>
+    <string name="navigation_drawer_open">فتح درج الملاحة</string>
+    <string name="navigation_drawer_close">درج إغلاق الملاحة</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Borrowers</item>
+        <item>Lenders</item>
+        <item>Settings</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_borrower</item>
+        <item>@drawable/ic_lender</item>
+        <item>@android:drawable/ic_menu_preferences</item>
+    </array>
+
+    <!-- Done bar strings -->
+    <string name="done">عمله</string>
+    <string name="cancel">إلغاء</string>
+
+    <string name="detail_name_header">اسم</string>
+    <string name="detail_lender_name_hint">أدخل اسم المقرض</string>
+    <string name="detail_phone_header">الهاتف</string>
+    <string name="detail_phone_hint">إدخال رقم الهاتف</string>
+    <string name="detail_amountLoaned_header">المبلغ المقترض</string>
+    <string name="detail_interest_header">الاهتمام</string>
+    <string name="detail_amount_hint">$</string>
+    <string name="detail_interest_hint">%</string>
+    <string name="detail_date_loaned_header">تاريخ المعارين</string>
+    <string name="detail_date_loaned_hint">DD/MM/YYYY</string>
+    <string name="detail_date_due_header">تاريخ</string>
+    <string name="detail_notification_time_header">الوقت الإعلام</string>
+    <string name="detail_date_due_hint">DD/MM/YYYY</string>
+    <string name="detail_notification_checkbox">إعلامي</string>
+    <string name="detail_balance_header">التوازن</string>
+    <string name="detail_select_contact_button">حدد جهة اتصال موجودة</string>
+    <string name="detail_borrower_name_hint">أدخل اسم المقترض</string>
+    <string name="detail_amountBorrowed_header">المبلغ المقترض</string>
+    <string name="detail_date_borrowed">استعارة التاريخ</string>
+    <string name="title_activity_pay_up_preferences">PayUpPreferences</string>
+    <string name="search_hint">بحث حسب الاسم</string>
+    <string name="title_activity_search_results">SearchResultsActivity</string>
+    <string name="detail_amount_paid_header">المبلغ المدفوع</string>
+
+    <!--notification strings-->
+    <string name="borrower_due">يدفع المقترض</string>
+    <string name="borrower_context_msg">ينبغي أن تدفع اليوم</string>
+    <string name="lender_due">المقرض ينبغي أن تدفع</string>
+    <string name="lender_context_msg">ينبغي أن تدفع اليوم</string>
+
+    <string name="action_bar_list_subtitle">المجموع:</string>
+    <string name="action_bar_list_subtitle_search">قائمة - البحث عن:</string>
+    <string name="borrower_detail_fragment_title">المقترض</string>
+    <string name="lender_detail_fragment_title">المقرض</string>
+    <string name="today">اليوم</string>
+    <string name="borrower_saved">إنقاذ المقترضين</string>
+    <string name="borrower_updated">تحديث المقترض</string>
+    <string name="lender_saved">محفوظة المقرض</string>
+    <string name="lender_updated">تحديث المقرض</string>
+    <string name="time_reset">ضبط الوقت</string>
+    <string name="upcoming_time">يرجى تحديد تاريخ الزمن الآتي</string>
+    <string name="interest_dialog_title">فائدة بسيطة بالنسبة للقرض</string>
+    <string name="dialog_interest_per_week">الفائدة في الأسبوع</string>
+    <string name="dialog_no_weeks_to_pay">عدد من أسابيع إلى دفع</string>
+    <string name="Borrowers_empty_listView_text">لا يوجد من يأخذ المال من:(</string>
+    <string name="lenders_empty_listView_text">لا توجد المقرضين على تقديم الاموال :)</string>
+
+
+    <!--settings strings -->
+    <string name="notification_title">إعدادات الإشعار</string>
+    <string name="default_notification_time">الوقت الإعلام الافتراضي</string>
+    <string name="alert_sound">صوت التنبيه</string>
+    <string name="select_ringtone">بحث حسب الاسم</string>
+    <string name="vibrate">اهتزاز في حالة تأهب</string>
+    <string name="time_picker_select">اختيار الوقت عرض</string>
+    <string name="picker_type">اختيار نوع</string>
+    <string name="simple_time_picker">بحث حسب الاسم</string>
+    <string name="Advance_time_picker">قبل اختيار الوقت</string>
+    <string name="list_value1">"1"</string>
+    <string name="list_value2">"2"</string>
+    <string name="About">عن</string>
+    <string name="Rate_app">التطبيق على دعم سعر</string>
+    <string name="FeedBack">التغذية المرتدة</string>
+    <string name="Feedback_summary">إرسال اقتراحات عن كيفية هذا التطبيق يمكن تحسين</string>
+
+    <string name="about_version">نسخة: %s</string>
+    <string name="about_author">Created by Alexis Simpson</string>
+    <string name="about_google_play">معدل التشغيل في جوجل</string>
+    <string name="about_contact">اتصل صاحب البلاغ</string>
+    <string name="about_contact_do_not_remove">\n\n--------------------\nرجاء لا تخرج بعد المعلومات التقنية !\n--------------------\n</string>
+
+
+    <string name="dropbox_link_dialog_title">حساب dropbox</string>
+    <string name="dropbox_link_dialog_message">يمكنك تسجيل الدخول إلى حساب dropbox القائمة أو إنشاء واحدة جديدة. بعد نجاح ربط حساب جميع بياناتك لن يتم نقلها على dropbox لتخزين سحابة .</string>
+    <string name="dropbox_link_dialog_yes">مواصلة</string>
+    <string name="dropbox_link_dialog_no">ليس الآن</string>
+
+    <string name="action_dropbox_link">ربط حساب dropbox</string>
+    <string name="action_dropbox_refresh">تحديث</string>
+    <string name="action_dropbox_refresh_toast">وقد بدأ نظام ®SYNC ...</string>
+    <string name="action_dropbox_link_succeded_toast">وقد تم حساب dropbox المرتبطة</string>
+    <string name="action_dropbox_link_failed_toast">فشل حساب dropbox ارتباط !</string>
+    <string name="action_dropbox_already_linked_toast">ربط حساب dropbox</string>
+
+    <string name="common_ok">OK</string>
+    <string name="common_close">إغلاق</string>
+
+    <string name="translation">english (default)</string>
+    <string name="search_title">البحث</string>
+    <string name="action_sort">نوع</string>
+    <string name="sort_by_name">حسب الاسم</string>
+    <string name="sort_by_due_date">الموعد المحدد</string>
+    <string name="sort_by_date_loaned_or_borrowed">المعارين من تاريخ/المستعارة</string>
+
+    <string name="no_connection_toast">لا يوجد اتصال بالشبكة !</string>
+    <string name="owes_you">مدين لك:</string>
+    <string name="You_owe">تملكه:</string>
+    <string name="mark_as_paid">مارك القرض المدفوعة</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="action_menu_details">التفاصيل</string>
+    <string name="action_menu_delete">حذف</string>
+    <string name="action_menu_paid">دفع</string>
+</resources>

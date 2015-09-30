@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+
+
+    <com.startapp.android.publish.banner.Banner
+        android:id="@+id/startAppBanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="4dp"
+                    >
+                    <QuickContactBadge
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:cropToPadding="true"
+                        android:src="@drawable/ic_contact_picture"
+                        android:id="@+id/quickContactBadge_Lender" />
+                    />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/detail_name_header"
+                        android:textColor="@color/holo_blue_light"/>
+
+                    <EditText android:id="@+id/lenders_nameEt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/detail_lender_name_hint"
+                        android:nextFocusDown="@+id/lenders_phone_editText"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_phone_header"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/holo_blue_light"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:id="@+id/lenders_phone_editText"
+                android:hint="@string/detail_phone_hint"
+                android:phoneNumber="true" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".7"
+                    android:text="@string/detail_amountLoaned_header"
+                    android:id="@+id/amount_loaned_tv"
+                    android:textColor="@color/holo_blue_light"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".3"
+                    android:text="@string/detail_interest_header"
+                    android:id="@+id/lenders_interest_tv"
+                    android:layout_marginRight="60dp"
+                    android:textColor="@color/holo_blue_light"/>
+            </LinearLayout>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".55"
+                    android:inputType="numberDecimal"
+                    android:ems="10"
+                    android:id="@+id/lenders_amount_editText"
+                    android:hint="@string/detail_amount_hint"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="0dp"
+                    android:nextFocusRight="@+id/lenders_interest_editText"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".45"
+                    android:inputType="numberDecimal"
+                    android:ems="10"
+                    android:id="@+id/lenders_interest_editText"
+                    android:hint="@string/detail_interest_hint"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="15dp"
+                    android:nextFocusDown="@+id/lenders_dateLoaned_editText"
+                    android:focusable="false"
+                    android:editable="false"/>
+
+            </TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_date_loaned_header"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/holo_blue_light"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="datetime"
+                android:ems="10"
+                android:id="@+id/lenders_dateLoaned_editText"
+                style="@android:style/Widget.Holo.Light.Spinner"
+                android:hint="@string/detail_date_loaned_hint"
+                tools:ignore="NewApi"
+                android:focusable="false"
+                android:focusableInTouchMode="false" />
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detail_date_due_header"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight=".65"
+                    android:textColor="@color/holo_blue_light"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detail_notification_time_header"
+                    android:layout_weight=".35"
+                    android:layout_marginRight="50dp"
+                    android:textColor="@color/holo_blue_light"/>
+
+                </TableRow>
+
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="0.55"
+                    android:layout_height="wrap_content"
+                    android:inputType="datetime"
+                    android:ems="10"
+                    android:id="@+id/lenders_date_due_editText"
+                    android:focusable="false"
+                    style="@android:style/Widget.Holo.Light.Spinner"
+                    android:hint="@string/detail_date_due_hint"
+                    tools:ignore="NewApi"
+                    android:nextFocusRight="@+id/lenders_Notification_Time_editText"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.45"
+                    android:inputType="time"
+                    android:ems="10"
+                    android:id="@+id/lenders_Notification_Time_editText"
+                    android:focusable="false"
+                    style="@android:style/Widget.Holo.Light.Spinner"
+                    tools:ignore="NewApi"/>
+            </TableRow>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:text="@string/detail_amount_paid_header"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textColor="@color/holo_blue_light"/>
+
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:text="@string/detail_balance_header"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textColor="@color/holo_blue_light"/>
+            </LinearLayout>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:id="@+id/lenders_amount_paid_editText"
+                    android:ems="10"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:enabled="false"
+                    android:ems="10"
+                    android:id="@+id/lenders_amount_due_editText"
+                    android:textColor="@color/holo_green_dark"/>
+
+            </TableRow>
+
+            <Button android:id="@+id/lenders_selectContactButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/detail_select_contact_button" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

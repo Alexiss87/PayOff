@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="tab_borrowers">Prestatario</string>
+    <string name="tab_lenders">Los prestamistas</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="borrowers_pager_title">Prestatario</string>
+    <string name="menu_item_add_borrower">Nuevo Prestatario</string>
+    <string name="menu_item_delete_borrower">Eliminar</string>
+    <string name="lenders_pager_title">Los prestamistas</string>
+    <string name="menu_item_add_lender">Nuevo prestamista</string>
+    <string name="menu_item_save">Guardar</string>
+    <string name="name">Nombre</string>
+    <string name="balance">Equilibrio:</string>
+    <string name="amount">Cantidad</string>
+
+    <!-- Calendar Strings -->
+    <string name="calendar_title_dateBorrowed">Fecha Préstamo</string>
+    <string name="calendar_title_dateDue">Fecha de vencimiento</string>
+    <string name="calendar_title_dateLoaned">Fecha Préstamo</string>
+
+    <!-- Navigation drawer strings -->
+    <string name="title_section1">Prestatario</string>
+    <string name="title_section2">Los prestamistas</string>
+    <string name="title_section3">Ajustes</string>
+    <string name="navigation_drawer_open">Navegación cajón abierto</string>
+    <string name="navigation_drawer_close">Cierre de la navegación cajón</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Prestatario</item>
+        <item>Los prestamistas</item>
+        <item>Ajustes</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_borrower</item>
+        <item>@drawable/ic_lender</item>
+        <item>@android:drawable/ic_menu_preferences</item>
+    </array>
+
+    <!-- Done bar strings -->
+    <string name="done">Hecho</string>
+    <string name="cancel">Cancelar</string>
+
+    <string name="detail_name_header">Nombre</string>
+    <string name="detail_lender_name_hint">Introduzca el nombre del prestamista</string>
+    <string name="detail_phone_header">TELÉFONO</string>
+    <string name="detail_phone_hint">Introduzca el número de teléfono</string>
+    <string name="detail_amountLoaned_header">CANTIDAD PRESTADA</string>
+    <string name="detail_interest_header">INTERÉS</string>
+    <string name="detail_amount_hint">$</string>
+    <string name="detail_interest_hint">%</string>
+    <string name="detail_date_loaned_header">FECHA PRÉSTAMO</string>
+    <string name="detail_date_loaned_hint">DD/MM/AAAA.</string>
+    <string name="detail_date_due_header">FECHA DE VENCIMIENTO</string>
+    <string name="detail_notification_time_header">Notificación</string>
+    <string name="detail_date_due_hint">DD/MM/AAAA</string>
+    <string name="detail_notification_checkbox">Notificarme</string>
+    <string name="detail_balance_header">EQUILIBRIO</string>
+    <string name="detail_select_contact_button">Seleccionar contacto existente</string>
+    <string name="detail_borrower_name_hint">Introduzca el nombre del Prestatario</string>
+    <string name="detail_amountBorrowed_header">MONTO DEL PRÉSTAMO</string>
+    <string name="detail_date_borrowed">FECHA PRÉSTAMO</string>
+    <string name="title_activity_pay_up_preferences">PayUpPreferences</string>
+    <string name="search_hint">Buscar por nombre</string>
+    <string name="title_activity_search_results">SearchResultsActivity</string>
+    <string name="detail_amount_paid_header">IMPORTE PAGADO</string>
+
+    <!--notification strings-->
+    <string name="borrower_due">Prestatario debido a pagar</string>
+    <string name="borrower_context_msg">Deben pagar hoy</string>
+    <string name="lender_due">Prestamista debe ser pagado</string>
+    <string name="lender_context_msg">Debe ser pagado hoy</string>
+
+    <string name="action_bar_list_subtitle">Lista</string>
+    <string name="action_bar_list_subtitle_search">Lista: la búsqueda de: </string>
+    <string name="borrower_detail_fragment_title">Prestatario</string>
+    <string name="lender_detail_fragment_title">Prestamista</string>
+    <string name="today">Hoy</string>
+    <string name="borrower_saved">Prestatario guardado</string>
+    <string name="borrower_updated">Prestatario actualizado</string>
+    <string name="lender_saved">Prestamista guardado</string>
+    <string name="lender_updated">Prestamista actualizado</string>
+    <string name="time_reset">Reajuste de la hora</string>
+    <string name="upcoming_time">Por favor, establezca para la próxima fecha de vencimiento tiempo</string>
+    <string name="interest_dialog_title">Interés simple para préstamo</string>
+    <string name="dialog_interest_per_week">Interés por semana</string>
+    <string name="dialog_no_weeks_to_pay">Número de semanas para pagar</string>
+    <string name="Borrowers_empty_listView_text">No hay los prestatarios tomar dinero de :(</string>
+    <string name="lenders_empty_listView_text">No hay prestamistas para darle dinero a :)</string>
+
+    <!--settings strings -->
+    <string name="notification_title">Configuración de notificación</string>
+    <string name="default_notification_time">Horario de notificación predeterminado</string>
+    <string name="alert_sound">Sonido de alerta</string>
+    <string name="select_ringtone">Seleccione Sonido de alerta</string>
+    <string name="vibrate">Alerta de vibración</string>
+    <string name="time_picker_select">Selector de Tiempo Ver</string>
+    <string name="picker_type">Tipo de colector</string>
+    <string name="simple_time_picker">Selector de tiempo simples</string>
+    <string name="Advance_time_picker">Selector de tiempo</string>
+    <string name="list_value1">"1"</string>
+    <string name="list_value2">"2"</string>
+    <string name="About">Acerca de</string>
+    <string name="Rate_app">Aplicación Tasa de apoyo</string>
+    <string name="FeedBack">Comentarios</string>
+    <string name="Feedback_summary">Enviar sugerencias acerca de cómo esta aplicación se puede mejorar</string>
+
+    <string name="about_version">Versión: %s</string>
+    <string name="about_author">Creado por Alexis Simpson</string>
+    <string name="about_google_play">En Google Play</string>
+    <string name="about_contact">Contacto con el autor</string>
+    <string name="about_contact_do_not_remove">\n\n--------------------\nPor favor, no sacar información técnica siguiente!\n--------------------\n</string>
+
+
+    <string name="dropbox_link_dialog_title">Dropbox Cuenta</string>
+    <string name="dropbox_link_dialog_message">Puede iniciar sesión en los Dropbox cuenta o crear uno nuevo. Después de la exitosa cuenta que vincule a todos los datos se mueven a Dropbox almacenamiento cloud.</string>
+    <string name="dropbox_link_dialog_yes">Continuar</string>
+    <string name="dropbox_link_dialog_no">Ahora No</string>
+
+    <string name="action_dropbox_link">Dropbox Enlace cuenta</string>
+    <string name="action_dropbox_refresh">Actualizar</string>
+    <string name="action_dropbox_refresh_toast">Sync se ha iniciado...</string>
+    <string name="action_dropbox_link_succeded_toast">Dropbox cuenta ha estado vinculada</string>
+    <string name="action_dropbox_link_failed_toast">Dropbox cuenta ha estado vinculada</string>
+    <string name="action_dropbox_already_linked_toast">Dropbox Cuenta vinculada</string>
+
+    <string name="common_ok">OK</string>
+    <string name="common_close">Cerrar</string>
+
+    <string name="translation">english (default)</string>
+    <string name="search_title">Buscar</string>
+    <string name="action_sort">Ordenar</string>
+    <string name="sort_by_name">Por nombre</string>
+    <string name="sort_by_due_date">Por fecha de vencimiento</string>
+    <string name="sort_by_date_loaned_or_borrowed">Fecha de préstamo/préstamo</string>
+
+    <string name="no_connection_toast">No hay conexión de red.</string>
+    <string name="owes_you">Le debe:</string>
+    <string name="You_owe">Usted debe:</string>
+    <string name="mark_as_paid">Marca préstamo como pago</string>
+    <string name="yes">Sí</string>
+    <string name="no">no</string>
+    <string name="action_menu_details">Detalles</string>
+    <string name="action_menu_delete">Eliminar</string>
+    <string name="action_menu_paid">Pagado</string>
+    <string name="app_name">Pay Off -Dept Manager</string>
+</resources>

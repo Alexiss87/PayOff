@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="80dp"
+    android:paddingRight="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0:"
+        android:id="@+id/number_of_borrowers"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Borrowers"
+        android:id="@+id/borrowers_left_title"
+        android:layout_toRightOf="@+id/number_of_borrowers"
+        android:layout_alignBottom="@+id/number_of_borrowers"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0:"
+        android:id="@+id/number_of_lenders"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/number_of_borrowers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        android:text="Lenders"
+        android:id="@+id/lenders_left_title"
+        android:layout_toRightOf="@+id/number_of_lenders"
+        android:layout_alignBottom="@+id/number_of_lenders"/>
+
+
+</RelativeLayout>

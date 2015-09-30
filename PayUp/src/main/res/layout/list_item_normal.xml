@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:paddingRight="10dp"
+    android:background="@drawable/background_activated">
+
+    <QuickContactBadge
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/listContactBadge"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ic_contact_picture"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_item_nameTV"
+        android:text="@string/name"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_toRightOf="@+id/listContactBadge"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:id="@+id/list_item_balanceTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/listContactBadge"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/list_item_nameTV"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/balance"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_item_amountTV"
+        android:textColor="@color/holo_green_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_toRightOf="@+id/list_item_balanceTV"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/list_item_nameTV"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/status_imageView"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:focusable="false"
+        android:visibility="visible"/>
+
+
+
+
+</RelativeLayout>
